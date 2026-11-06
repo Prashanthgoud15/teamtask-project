@@ -1,0 +1,44 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.brand h2 {
+    margin: 0;
+}
+
+.navigation {
+    display: flex;
+    gap: 25px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #444;
+}
+
+.navigation a.active {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.user-profile {
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .app-header {
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .navigation {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+}
