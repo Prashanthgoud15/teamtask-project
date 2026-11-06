@@ -1,2 +1,2 @@
 # teamtask-project
-Collaborative task management application
+Collaborative task management application.
