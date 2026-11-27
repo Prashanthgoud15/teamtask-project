@@ -1,6 +1,6 @@
 # GitHub Foundations Practice
 
-This repository is created to build real-world applications.
+This repository is created to practise professional software development and build real-world applications.
 ## Topics Covered
 
 - Git Basics
